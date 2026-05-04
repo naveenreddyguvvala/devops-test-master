@@ -1,14 +1,14 @@
-# 🚀 DevOps Project – Scalable Key-Value Application on AWS
+# DevOps Project – Scalable Key-Value Application on AWS
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project demonstrates a production-style DevOps implementation of a key-value application using AWS services, Docker, and Terraform.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```id="7p3c4t"
 User (Browser)
@@ -24,9 +24,9 @@ ElastiCache Redis
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
-### 🔹 Application Code Structure
+###  Application Code Structure
 
 ```id="k2z6w1"
 devops-test-master/
@@ -49,7 +49,7 @@ devops-test-master/
 
 ---
 
-### 🔹 Infrastructure (Terraform) Structure
+###  Infrastructure (Terraform) Structure
 
 ```id="1y9o9n"
 devops-project/
@@ -82,7 +82,7 @@ devops-project/
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * Frontend: React
 * Backend: Rust (Actix Web)
@@ -96,7 +96,7 @@ devops-project/
 
 ---
 
-## 🚀 Deployment Steps
+##  Deployment Steps
 
 ### 1. Clone Repository
 
@@ -147,7 +147,7 @@ terraform apply
 
 ---
 
-## 🌐 Access Application
+##  Access Application
 
 ### Frontend
 
@@ -163,7 +163,7 @@ http://<alb-dns>
 
 ---
 
-## 🧪 API Usage
+##  API Usage
 
 ### Store value
 
@@ -183,7 +183,7 @@ GET /name
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 * Infrastructure as Code (Terraform modules)
 * Containerized deployments with ECS Fargate
@@ -193,13 +193,13 @@ GET /name
 
 ---
 
-## 🧹 Cleanup
+##  Cleanup
 
 ```id="iq6v9y"
 terraform destroy --auto-approve
 ```
 
-## 🧠 Challenges & Solutions
+##  Challenges & Solutions
 
 ### 1. Redis Connection Issue
 
@@ -229,7 +229,7 @@ terraform destroy --auto-approve
 
 ---
 
-## 🧹 Cleanup
+##  Cleanup
 
 To delete all resources:
 
@@ -239,7 +239,7 @@ terraform destroy --auto-approve
 
 ---
 
-## ✅ Outcome
+##  Outcome
 
 * Fully automated infrastructure deployment
 * Scalable and secure architecture
